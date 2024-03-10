@@ -48,3 +48,14 @@ a{
     box-shadow: 0 0.6rem 1rem rgba(0,0,0,0.25);
     transform: translateY(-0.4rem);
 }
+@media (max-width: 38em) {
+    html{
+        font-size: 50%;
+    }
+    .projects{
+        grid-template-columns: 1fr;
+    }
+    .container{
+        width: 44rem;
+    }
+}
